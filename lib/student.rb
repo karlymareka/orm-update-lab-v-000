@@ -49,7 +49,9 @@ class Student
     name = array[1]
     grade = array[2]
     Student.new(id, name, grade)
-  end 
+  end
+  
+  def self.find_by_name(name)
   
   
   
